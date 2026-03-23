@@ -20,7 +20,7 @@
 @endif
 
 
-@if($errors->any())
+@if(isset($errors) && $errors->any())
     <div class="alert alert-warning alert-dismissible fade show">
 
         <ul class="mb-0">

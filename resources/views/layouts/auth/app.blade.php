@@ -23,7 +23,6 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/boxicons.css') }}" />
-             <img src="{{ asset('images/suraj_logo_01.png') }}" alt="Suraj" class="app-logo-sd app-brand-logo demo">
 
     <!-- Core CSS -->
     <link rel="stylesheet" href="{{ asset('assets/vendor/css/core.css') }}" class="template-customizer-core-css" />

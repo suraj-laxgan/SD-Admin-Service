@@ -41,8 +41,12 @@
                                      </div>
                                  </div>
                                  <div class="flex-grow-1">
-                                     <span class="fw-semibold d-block">{{ Auth::user()->name }}</span>
-                                     <small class="text-muted">{{ Auth::user()->email }}</small>
+                                     <span class="fw-semibold d-block">
+                                         {{ Auth::check() ? Auth::user()->name : 'Admin' }}
+                                     </span>
+                                     <small class="text-muted">
+                                         {{ Auth::check() ? Auth::user()->email : 'email@example.com' }}
+                                     </small>
                                  </div>
                              </div>
                          </a>
